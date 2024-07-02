@@ -21,3 +21,6 @@ DerivedData
 
 # Swift Package Manager
 .build/
+
+# Webstorm
+.idea

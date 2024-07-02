@@ -426,7 +426,7 @@ open class SimpleButton: UIButton {
     // MARK: - LoadingView
     
     private func setDefaultLoadingView() {
-        let activityIndicator = UIActivityIndicatorView(style: .white)
+        let activityIndicator = UIActivityIndicatorView(style: UIActivityIndicatorView.Style.medium)
         activityIndicator.startAnimating()
         activityIndicator.hidesWhenStopped = false
         activityIndicator.alpha = 0
